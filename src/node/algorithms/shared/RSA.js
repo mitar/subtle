@@ -37,7 +37,10 @@ function generate(algorithm){
   }
 
   var keyPair = ursa.generatePrivateKey(algorithm.modulusLength, exp);
-  return forge.pki.privateKeyFromPem(keyPair.toPrivatePem('utf8'));
+  return {
+    privateKey: forge.pki.privateKeyFromPem(keyPair.toPrivatePem('utf8')),
+    publicKey: forge.pki.publicKeyFromPem(keyPair.toPublicPem('utf8'))
+  }
 }
 
 
