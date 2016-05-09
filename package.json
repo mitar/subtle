@@ -22,14 +22,14 @@
   "license": "MIT",
   "dependencies": {
     "ecc-jsbn": "0.0.1",
-    "ecc-qj": "git+https://github.com/rynomad/ecc.git",
+    "ecc-qj": "https://github.com/mitar/ecc/tarball/6b03a1899434641c81b498a3f67146b380ed123a",
     "node-forge": "^0.6.20",
     "polyfill-promise": "^4.0.1",
     "sjcl": "^1.0.3",
     "ursa": "^0.9.3"
   },
   "optionalDependencies":{
-    "ecc-qj" : "git+https://github.com/rynomad/ecc.git"
+    "ecc-qj" : "https://github.com/mitar/ecc/tarball/6b03a1899434641c81b498a3f67146b380ed123a"
   },
   "devDependencies": {
     "chext": "0.0.1",

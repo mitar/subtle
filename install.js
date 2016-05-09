@@ -6,6 +6,6 @@ child_process.exec('npm -v', function (error, stdout, stderr) {
 	if (pure_js) {
 		console.log('PURE JS');
 	} else {
-		child_process.exec('npm install git+https://github.com/rynomad/ecc.git');
+		child_process.exec('npm install https://github.com/mitar/ecc/tarball/6b03a1899434641c81b498a3f67146b380ed123a');
 	}
 });
