@@ -20,6 +20,11 @@
   },
   "author": "Ryan Bennett",
   "license": "MIT",
+  "homepage": "https://github.com/rynomad/subtle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rynomad/subtle.git"
+  },
   "dependencies": {
     "ecc-jsbn": "0.0.1",
     "ecc-qj": "https://github.com/mitar/ecc/tarball/6b03a1899434641c81b498a3f67146b380ed123a",
@@ -32,7 +37,6 @@
     "ecc-qj" : "https://github.com/mitar/ecc/tarball/6b03a1899434641c81b498a3f67146b380ed123a"
   },
   "devDependencies": {
-    "chext": "0.0.1",
     "glob": "^5.0.14",
     "gulp": "^3.9.0",
     "gulp-jsdoc": "^0.1.4",
